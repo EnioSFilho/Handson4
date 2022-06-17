@@ -1,0 +1,23 @@
+#barra{
+    position: relative;
+    border-left: 1px solid #76BB4C;
+    padding: 2% 5%;
+}
+#testz{
+    position: fixed;
+}
+.navi {
+    position: fixed;
+}
+
+#headerFeed{
+text-decoration: none;
+color: #76BB4C;
+font-size: 24px;
+
+}
+#headerPerfil{
+    text-decoration: none;
+    color: #76BB4C;
+    font-size: 24px;
+}

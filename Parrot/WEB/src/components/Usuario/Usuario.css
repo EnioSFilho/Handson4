@@ -1,0 +1,39 @@
+
+.nav{
+    width: 100%;
+   
+    margin-bottom: 100%;
+}
+.first{
+    
+    margin-left: 325px;
+    width: 700px;
+    height: 300px;
+    border: 1px solid #d1cfcf;
+   }
+.second{
+    margin-left: 325px;
+    
+    width: 700px;
+    height: 758px;
+    border: 1px solid #d1cfcf;
+   
+
+}
+div.second {
+    
+    margin-bottom: 50px;
+   
+
+}
+#editbutton {
+
+    border: none;
+    background-color: #76BB4C;
+    border-radius: 10px;
+   
+}
+div.userscont {
+    display: flex;
+    justify-content: space-around;
+}
