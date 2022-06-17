@@ -1,0 +1,56 @@
+npm create vite@latest
+
+nA pasta criada dar um cd
+
+npm install
+
+para rodar
+
+npm run dev
+
+---------------------------
+
+para criar api simulada
+npm install -g json-server
+
+para acessar a api
+
+json-server --watch api.json --port 3333
+
+tambem e necessaria a instalacao do axios
+npm install axios
+
+
+autenticaccao de login
+npm i -g json-server-auth
+json-server-auth api.json -p 3333
+
+Criar arquivo .env na raiz da api e colar o codigo abaixo:
+DB_USER=root
+DB_PASSWORD=12345678
+DB_NAME=parrot
+DB_DIALECT=mysql
+DB_HOST=localhost
+DB_PORT = 3306
+
+
+key=handsOnParrot
+expiresIn=1d
+
+---------------------------------
+Instalacao do reactbootstrap
+npm install react-bootstrap bootstrap
+
+nao esquecer de importar o bootstrap para o arquivo main.tsx que controla o app
+import "bootstrap/dist/css/bootstrap.min.css"
+
+---------------------------------
+
+Instalando pacote de formulario do react - é um hook que serve para gerenciar formularios
+npm install formik yup
+nao pode esquecer de importar o formik no app import { useFormik } from 'formik' - tambem tem que importar o Form no react bootstrap
+
+
+installlar o o reducx
+npm install @types/react-redux -d
+npm install @reduxjs/toolkit react-redux
